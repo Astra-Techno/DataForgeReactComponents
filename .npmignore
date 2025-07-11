@@ -1,0 +1,13 @@
+node_modules/
+src/
+.env*
+*.log
+.DS_Store
+.vscode/
+.git/
+test-app/
+example/
+vite.config.js
+README.md
+package-lock.json
+.gitignore

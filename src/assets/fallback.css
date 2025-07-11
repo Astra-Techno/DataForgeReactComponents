@@ -1,0 +1,40 @@
+.fallback-label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #374151; /* text-gray-700 */
+}
+
+.fallback-required {
+  color: #ef4444; /* text-red-500 */
+}
+
+.fallback-select {
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.375rem; /* rounded */
+  padding: 0.25rem 0.5rem; /* px-3 py-2 */
+  font-size: 1rem;
+}
+
+.fallback-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 5px;
+}
+
+.fallback-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #3b82f6;
+  border-top-color: transparent;
+  border-radius: 9999px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
